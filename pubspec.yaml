@@ -1,0 +1,37 @@
+name: city_cycle_rental
+description: "A new Flutter project City_Cycle_Rental."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  intl:
+  provider:
+  flutter_native_splash:
+  loading_animation_widget:
+  shimmer:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+
+
+#  fonts:
+#     - family: Roboto
+#       fonts:
+#         - asset: assets/fonts/Roboto-Thin.ttf.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
